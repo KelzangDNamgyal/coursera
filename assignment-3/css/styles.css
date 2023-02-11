@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+.navbar-brand h3 {
+    color: black;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+    margin-bottom: 8px;
+}
+
+.container h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.container .container-fluid {
+    background: #999999;
+    padding: 8px 24px;
+    margin-bottom: 24px;
+}
+
+.container .container-fluid h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-collapse .navbar-nav hr {
+    color: black;
+}
+
+#nav-list {
+    text-align: center;
+}
+
+#nav-list a {
+    color: black;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
